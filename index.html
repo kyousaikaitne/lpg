@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>アンケートフォーム</title>
+<title>共済会　会費についてのアンケート</title>
 </head>
 <body>
 
@@ -8,72 +8,42 @@
 <table>
   <tr>
     <td colspan="2">
-      <strong>アンケートフォーム</strong>
+      <strong>共済会費についてのアンケート</strong>
     </td>
   </tr>
   <tr>
-    <td>
-      <strong>アクセスナンバー：</strong>
-    </td>
-    <td>
-    <input type="text" name="アクセスナンバー" maxlength="5">
-    </td>
-    <td>
-      <strong>お名前：</strong>
-    </td>
-    <td>
-    <input type="text" name="お名前" maxlength="5">
-    </td>
-  </tr>
   <tr>
-    <td>
-      <strong>電子メール：</strong>
-    </td>
-    <td>
-    <input type="text" name="電子メール" maxlength="5">
-    </td>
-    <td>
-      <strong>性別：</strong>
     </td>
     <td>
     <input type="radio" name="性別" value="男">男 
     <input type="radio" name="性別" value="女">女 
     </td>
   </tr>
+
   <tr>
     <td >
-      <strong>都道府県：</strong>
+      <strong>共済会費はいくらが適正であると考えるか：</strong>
     </td>
     <td>
-    <input type="text" name="都道府県" maxlength="5">
-    </td>
-    <td >
-      <strong>市外局番：</strong>
-    </td>
-    <td>
-    <input type="text" name="市外局番" maxlength="5">
-    </td>
-  </tr>
-  <tr>
-    <td >
-      <strong>パソコンのＯＳ：</strong>
-    </td>
-    <td>
-      <select name="パソコンのＯＳ">
-        <option>Windows95</option>
-        <option>Windows98</option>
-        <option>Windowsme</option>
-        <option selected>Windows2000</option>
-        <option>Windowsxp</option>
+      <select name="共済会費はいくらが適正であると考えるか">
+        <option>2000円/月</option>
+        <option>1000円/月</option>
+        <option>2000円以上</option>
+        <option selected>1000円未満</option>
+        <option>共済会自体を廃止</option>
       </select>
     </td>
     <td >
-      <strong>パソコン歴：</strong>
+      <strong>所属：</strong>
     </td>
     <td>
-    <input type="checkbox" name="パソコン歴" value="一年未満">一年未満
+    <input type="checkbox" name="所属" value="関東支社">関東支社
     <br>
-    <input type="checkbox" name="パソコン歴" value="一年以上">一年以上 
+    <input type="checkbox" name="所属" value="中部支社">中部支社
+    <br>
+    <input type="checkbox" name="所属" value="中四国支社">中四国支社
+    <br>
+    <input type="checkbox" name="所属" value="九州支社">九州支社   
     </td>
   </tr>
   <tr>
